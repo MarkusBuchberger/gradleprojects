@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'BmuCGradle'
+include ':AlgorithmsGradle'
+project(':AlgorithmsGradle').projectDir = new File(settingsDir, "../AlgorithmsGradle"); 
